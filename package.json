@@ -1,0 +1,28 @@
+{
+  "name": "react-chat",
+  "version": "1.0.0",
+  "description": "simple-react-chat-with-scaledrone",
+  "main": "index.js",
+  "homepage": "http://www.visualvicinity.com/reactchat",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "CodeMix",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "jquery": "^3.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.4.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
