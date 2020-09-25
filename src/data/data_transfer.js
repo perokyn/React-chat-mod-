@@ -20,7 +20,7 @@ export function TriggerPHP(currentUser) {
   //testing url: //localhost:8001/index.php
   $.ajax({
     type: "POST",
-    url: "/reactchat/index.php",
+    url: "/some url",
     data: JSON.stringify(data),
     headers: { "Content-Type": "application/json" },
     success: function successCallback(response) {
@@ -54,7 +54,7 @@ export const triggerPHPMessage = (name, email, message) => {
   //testing url: //localhost:8001/index.php
   $.ajax({
     type: "POST",
-    url: "/reactchat/index.php",
+    url: "/some url",
     //dataType: "txt",
     data: JSON.stringify(data),
     headers: { "Content-Type": "application/json" },
